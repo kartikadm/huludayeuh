@@ -1,0 +1,244 @@
+/* Home*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6e6e6;
+    padding: 10px 20px;
+}
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+}
+.gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.gallery img {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #e6e6e6;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-title {
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.gallery, .video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+.gallery img, .video-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Destinasi*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #f7941d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiket masuk */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.ticket-info {
+    background-color: #d35400; /* Warna oranye */
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left; /* Untuk teks paragraf */
+    position: relative;
+}
+.ticket-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; /* Menempatkan teks ke tengah */
+    margin-bottom: 20px; /* Jarak antara judul dan konten */
+}
+
+/* Pemesanan */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.container h2 {
+    text-align: center;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.form-group textarea {
+    height: 100px;
+}
+.form-group button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#total {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    cursor: not-allowed;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+form select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/*kontak*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+.contact-container {
+    background-color: #dcdcdc;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact-container h3 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-container p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+textarea {
+    resize: none;
+    height: 100px;
+}
+button {
+    background-color: #2a2a82;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1f1f6d;
+}
