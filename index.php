@@ -14,6 +14,7 @@
             <a href="#destinasi">Destinasi</a>
             <a href="#tiket_masuk">Tiket Masuk</a>
             <a href="#pemesanan">Pemesanan</a>
+            <a href="daftar_pemesanan.php">Daftar Pemesanan</a>
             <a href="#kontak">Kontak</a>
         </nav>
     </header>

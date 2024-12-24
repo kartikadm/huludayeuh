@@ -37,10 +37,11 @@
         <label for="nama">Nama: <p><?= $detail[1]?></p></label>
         <label for="no_hp">Nomor HP: <p><?= $detail[2]?></p></label>
         <label for="pilih_tempat">Pilih_tempat: <p><?= $detail[3]?></p></label>
-        <label for="tanggal_kunjungan">Tanggal_Kunjungan: <p><?= $detail[3]?></p></label>
+        <label for="tanggal_kunjungan">Tanggal_Kunjungan: <p><?= $detail[4]?></p></label>
         <label for="jumlah">Jumlah_Orang: <p><?= $detail[5]?></p></label>
-        <label for="kebutuhan">Kebutuhan: <p>Rp. <?= number_format($detail[7], 0 , ',', '.')?></p></label>
-        <label for="total">Total_Harga: <p><?= $detail[8]?></p></label>
+        <label for="jumlah">Kebutuhan: <p><?= $detail[6]?></p></label>
+        <label for="kebutuhan">Total Tagihan: <p>Rp. <?= number_format($detail[7], 0 , ',', '.')?></p></label>
+        <label for="total">Tanggal Pemesanan: <p><?= $detail[8]?></p></label>
         <button type="submit" onclick="window.print()">Cetak Invoice</button>
     </form>
     </div><?php } ?>
