@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header-container">
-        <div class="header-title">BUMI PERKEMAHAN HULUDAYEUH</div>
+<header class="header-container">
+<div class="header-title">BUMI PERKEMAHAN HULUDAYEUH</div>
         <nav>
             <a href="#home">Home</a>
             <a href="#destinasi">Destinasi</a>
