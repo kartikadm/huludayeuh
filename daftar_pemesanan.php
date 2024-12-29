@@ -21,7 +21,7 @@
     <title>Daftar Pemesanan Tiket</title>
     <style>
         table {
-            width: 80%;
+            width: 70%;
             border-collapse: collapse;
         }
 
@@ -30,7 +30,7 @@
         }
 
         th, td {
-            padding: 10px;
+            padding: 3px;
             text-align: left;
         }
 
