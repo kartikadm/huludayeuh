@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+<title>Bumi Perkemahan Huludayeuh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="header-title">BUMI PERKEMAHAN HULUDAYEUH</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#destinasi">Destinasi</a>
+            <a href="#tiket_masuk">Tiket Masuk</a>
+            <a href="pemesanan.php">Pemesanan</a>
+            <a href="daftar_pemesanan.php">Daftar Pemesanan</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Pemesanan Tiket</title>

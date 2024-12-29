@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pemesanan</title>
-    <style>
-body {
+<title>Bumi Perkemahan Huludayeuh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <header class="header-container">
         <div class="header-title">BUMI PERKEMAHAN HULUDAYEUH</div>
         <nav>
@@ -17,6 +16,11 @@ body {
             <a href="#kontak">Kontak</a>
         </nav>
     </header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan</title>
+    <style>
+body {
     
     font-family: Arial, sans-serif;
     margin: 0;

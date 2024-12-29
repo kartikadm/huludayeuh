@@ -79,68 +79,6 @@
         <p>Jika ingin camping tentunya ada biaya tambahan sebesar Rp. 25.000</p>
     </div>
 
-    <!----pemesanan-->
-    <div id="pemesanan" class="container">
-    <div class="container">
-        <h2>Form Pemesanan Tiket</h2>
-        <form action="proses_pemesanan.php" method="POST">
-            <div class="form-group">
-                <label for="nama">Nama:</label>
-                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
-            </div>
-            <div class="form-group">
-                <label for="handphone">Handphone:</label>
-                <input type="text" id="handphone" name="no_hp" placeholder="Masukkan handphone Anda" required>
-            </div>
-            <div class="form-group">
-                <label for="tempat">Pilih Tempat:</label>
-                <select id="tempat" name="tempat" required>
-                    <option value="" disabled selected>-- Pilih Tempat --</option>
-                    <option value="10000">Wisata (Rp 10.000)</option>
-                    <option value="25000">Camping (Rp 25.000)</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="tanggal">Tanggal Kunjungan:</label>
-                <input type="date" id="tanggal" name="tanggal" required>
-            </div>
-            <div class="form-group">
-                <label for="jumlah">Jumlah Orang:</label>
-                <input type="number" id="jumlah" name="jumlah_orang" min="1" placeholder="Masukkan jumlah orang" required>
-            </div>
-            <div class="form-group">
-                <label for="kebutuhan">Kebutuhan:</label>
-                <textarea id="kebutuhan" name="kebutuhan" placeholder="Misalnya: Membutuhkan peminjaman tenda"></textarea>
-            </div>
-            <div class="form-group">
-                <label for="total">Total Harga (Rp):</label>
-                <input type="number" id="total" name="total" placeholder="Total harga akan dihitung otomatis" readonly>
-            </div>
-            <script>
-                // Fungsi untuk memperbarui harga berdasarkan tempat wisata
-                function updateHarga() {
-                    const tempatSelect = document.getElementById('tempat');
-                    const harga = parseInt(tempatSelect.value) || 0; // Ambil harga dari pilihan dropdown
-                    const jumlah = parseInt(document.getElementById('jumlah').value) || 0; // Ambil jumlah orang
-                    
-                    // Hitung total harga
-                    const total = harga * jumlah;
-
-                    // Tampilkan total harga
-                    document.getElementById('total').value = total;
-                }
-
-                // Event listener untuk perubahan input
-                document.getElementById('tempat').addEventListener('change', updateHarga);
-                document.getElementById('jumlah').addEventListener('input', updateHarga);
-            </script>
-            <div class="form-group">
-                <button type="submit">Kirim Pesanan</button>
-            </div>
-        </form>
-    </div>
-</div>
-
 <!--- Kontak --->
     <div id="kontak" class="contact-container">
         <h3>Kontak Kami</h3>
